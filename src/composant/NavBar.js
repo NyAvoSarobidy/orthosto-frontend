@@ -9,7 +9,7 @@ function NavBar(){
     return (
         <>
          <Header />
-     <nav className="navbar navbar-expand-lg navbar-light  bg-success shadow-sm">
+     <nav className="navbar navbar-expand-lg navbar-light shadow-sm ">
       <div className="container ">
         <a className="navbar-brand text-white fw-bold" href="#">    
           ORTHOSTO
@@ -39,6 +39,7 @@ function NavBar(){
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
+          
               <i className="fas fa-heart me-2"></i> Stomalogie
             </a>
           </li>

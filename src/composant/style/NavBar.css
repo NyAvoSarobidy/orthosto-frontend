@@ -5,7 +5,25 @@
 .logo {
   height: 50px;
 }
+.navbar{
+  background-color: #008080;
+  top: 0; /* Définit la position de départ */
+  position: sticky;
+  z-index: 1000; /* Pour s'assurer qu'elle reste au-dessus du contenu */
+  transition: background-color 0.3s ease-in-out;
+}
+.navbar::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #004d4d;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
 
+.navbar.sticky::after {
+  opacity: 1;
+}
 .navbar-nav .nav-link {
   color: #f8f8f8;
  
@@ -18,7 +36,7 @@
 }
 
 .dropdown-menu {
-  background-color: #26bd3f;;
+  background-color: #008080;
 }
 
 .dropdown-item {
