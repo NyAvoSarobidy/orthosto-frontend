@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MyRouter from "./Route/Route";
+
 
 function App() {
+  // const [message, setMessage] = useState('');
+
+  // useEffect(() => {
+  //   axios.get(`${process.env.REACT_APP_API_URL}/test`)
+  //     .then(response => {
+  //       setMessage(response.data.message);
+  //     })
+  //     .catch(error => {
+  //       console.error('Erreur lors de la récupération des données:', error);
+  //     });
+  // }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>    
+         
+    <MyRouter />
+
+ </div> 
   );
 }
 

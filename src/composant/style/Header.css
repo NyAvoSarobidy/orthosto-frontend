@@ -1,0 +1,11 @@
+.text-small {
+    font-size: 0.700rem; /* Taille un peu réduite */
+  }
+  
+
+  
+  .header-top-custom {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
