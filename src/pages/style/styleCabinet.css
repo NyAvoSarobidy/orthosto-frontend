@@ -1,0 +1,39 @@
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    text-align: left;
+   
+  }
+
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .eto {
+    color:#008080;
+  }
+
+  .techno{
+    background-color: #008080;
+  }
+
+  .image-container:hover .zoom-icon {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+/* Styles pour le fond transparent */
+.custom-backdrop {
+  background-color: rgba(0, 0, 0, 0.5) !important; /* Fond semi-transparent */
+}
+
+/* Styles pour le contenu de la modal */
+.custom-modal-content {
+  background-color: transparent !important; /* Fond transparent pour la modal */
+  border: none !important; /* Supprime la bordure */
+  box-shadow: none !important; /* Supprime l'ombre */
+}

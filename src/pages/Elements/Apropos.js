@@ -4,10 +4,10 @@ import '../style/styleApropos.css'
 function Apropos(){
 
         return(
-            <div id="Apropos" className="container mt-5">
-                
-            <div className="row align-items-center">
-            <h2 className="title text-center">ORTHODONTISTE MULHOUSE</h2>
+            <div id="Apropos" className="mt-5 pb-5" style={{ paddingTop : "50px" }}>
+                 <div className="container " >
+                 <div className="row align-items-center">
+            <h2 className="title text-center text-danger">ORTHODONTISTE MULHOUSE</h2>
               {/* Colonne gauche : Texte */}
               
               <div className="col-md-6">         
@@ -37,7 +37,9 @@ function Apropos(){
                     style={{ maxWidth: "40%", height: "auto" }}
                 /> 
                 </div>
-            </div>
+                 </div>
+                 </div>
+          
             </div>
         )
 }

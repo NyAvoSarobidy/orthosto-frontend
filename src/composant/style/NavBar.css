@@ -5,22 +5,25 @@
 .logo {
   height: 50px;
 }
-.navbar{
-  background-color: #008080;
-  top: 0; /* Définit la position de départ */
-  position: sticky;
-  z-index: 1000; /* Pour s'assurer qu'elle reste au-dessus du contenu */
-  transition: background-color 0.3s ease-in-out;
-}
-.navbar::after {
-  content: "";
-  display: block;
-  height: 2px;
-  background-color: #004d4d;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Pour que le navbar reste au-dessus des autres éléments */
+  background-color: rgba(255, 255, 255, 0.7); /* Couleur avec transparence */
+  backdrop-filter: blur(3px); /* Effet de flou */
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Ligne subtile en bas */
 }
 
+.navbar-brand, .navbar-nav .nav-link {
+  color: rgb(46, 45, 45) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f01c1c !important; /* Jaune clair au survol */
+}
 .navbar.sticky::after {
   opacity: 1;
 }

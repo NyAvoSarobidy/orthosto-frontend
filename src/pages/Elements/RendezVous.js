@@ -21,13 +21,13 @@ function RendezVous(){
               </div>
               <div className="row justify-content-center">
                 <div className="col-12 col-md-auto mb-2 mb-md-0">
-                    <Link to="" className="btn btn-sm btn-outline-secondary w-100">
+                    <Link to="" className="btn btn-sm btn-outline-primary w-100">
                     <i className="fas fa-tooth me-2"></i>
                ORTHODONTIE
                     </Link>
                 </div>
                 <div className="col-12 col-md-auto">
-                    <Link to="" className="btn btn-sm btn-outline-secondary w-100">
+                    <Link to="" className="btn btn-sm btn-outline-danger w-100">
                     <i className="fas fa-heart me-2"></i>STOMATOLOGIE
                     </Link>
                 </div>

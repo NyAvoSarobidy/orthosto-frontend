@@ -1,10 +1,10 @@
 import React from "react"
 
-import '../style/styleTechno.css'
+import '../style/style.css'
 function Techonologie (){
 
     return(
-        <div className=" mt-5">
+        <div id="techno" className=" mt-5">
 
 <div className="container">
 

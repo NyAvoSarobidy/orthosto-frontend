@@ -1,0 +1,64 @@
+.ABC {
+    box-shadow: 0 4px 8px 0 #15033f;
+    max-width: 300px;
+    margin: auto;
+}
+
+
+.texte {
+    text-align: center;
+}
+
+.doctors {
+    margin-bottom: 20px;
+}
+
+.doctor-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.cabinet-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+  @media (max-width: 768px) {
+    .doctor-name {
+      font-size: 1.2rem; /* Réduit la taille de police sur les petits écrans */
+    }
+  }
+  
+ 
+  
+  @media (max-width: 768px) {
+    .cabinet-name {
+      font-size: 1rem; /* Réduit la taille de la description sur les petits écrans */
+    }
+  }
+  
+  .scroll {
+    animation: slideRight 1.5s ease-out forwards;/* Pas d'animation au départ */
+    opacity: 0;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+  
+  
