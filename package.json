@@ -2,6 +2,7 @@
   "name": "orhosto-frontend",
   "version": "0.1.0",
   "private": true,
+ "homepage": "https://NyAvoSarobidy.github.io/orthosto-frontend/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@testing-library/dom": "^10.4.0",
@@ -33,7 +34,7 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
+    "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
