@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orthosto-frontend/static/css/main.f20004eb.css",
-    "main.js": "/orthosto-frontend/static/js/main.ded6d506.js",
+    "main.js": "/orthosto-frontend/static/js/main.e666b60c.js",
     "static/js/453.674836c1.chunk.js": "/orthosto-frontend/static/js/453.674836c1.chunk.js",
     "static/media/Back.jpg": "/orthosto-frontend/static/media/Back.e0343e43ecfdb10d508d.jpg",
     "static/media/fa-solid-900.ttf": "/orthosto-frontend/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -14,11 +14,11 @@
     "static/media/fa-v4compatibility.woff2": "/orthosto-frontend/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/orthosto-frontend/index.html",
     "main.f20004eb.css.map": "/orthosto-frontend/static/css/main.f20004eb.css.map",
-    "main.ded6d506.js.map": "/orthosto-frontend/static/js/main.ded6d506.js.map",
+    "main.e666b60c.js.map": "/orthosto-frontend/static/js/main.e666b60c.js.map",
     "453.674836c1.chunk.js.map": "/orthosto-frontend/static/js/453.674836c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f20004eb.css",
-    "static/js/main.ded6d506.js"
+    "static/js/main.e666b60c.js"
   ]
 }
